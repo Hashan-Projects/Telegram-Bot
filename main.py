@@ -1,3 +1,5 @@
+#Created By @2021-Hashan Dimuthu All Right Reserved
+
 import os
 import telebot
 
