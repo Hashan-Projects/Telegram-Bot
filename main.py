@@ -9,7 +9,7 @@ bot = telebot.Telebot(API_KEY)
 #start 
 @bot.message_handler(commands=['start'])
 def start(message):
-    bot.reply_to(message, "𝓨𝓮𝓼 𝓘 𝓪𝓶 𝓗𝓮𝓻𝓮 ")
+    bot.reply_to(message, "𝓗𝓮𝓵𝓵𝓸 𝓘 𝓪𝓶 𝓗𝓪𝓼𝓱𝓪𝓷 𝓓𝓲𝓶𝓾𝓽𝓱𝓾'𝓼 𝓒𝓱𝓪𝓽 𝓑𝓸𝓽 :) \n\n 𝓢𝓸𝓶𝓮 𝓒𝓸𝓶𝓶𝓪𝓷𝓭𝓼 𝓪𝓻𝓮 𝔂𝓸𝓾 𝓬𝓪𝓷 𝓰𝓮𝓽 𝓲𝓷 𝓽𝓱𝓲𝓼 𝓬𝓸𝓶𝓶𝓪𝓷𝓭 /help")
     
 #help
 @bot.message_handler(commands=['help'])
