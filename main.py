@@ -8,7 +8,7 @@ bot = telebot.Telebot(API_KEY)
 
 @bot.message_handler(commands=['start'])
 def great(message):
-    bot.reply_to(message, "𝓨𝓮𝓼 𝓘 𝓪𝓶 𝓗𝓮𝓻𝓮 /n/n")
+    bot.reply_to(message, "𝓨𝓮𝓼 𝓘 𝓪𝓶 𝓗𝓮𝓻𝓮 \n\n")
 
 @bot.message_handler(commands=['hello'])
 def hello(message):
